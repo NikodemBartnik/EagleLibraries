@@ -6,4 +6,5 @@ Here is what you can find in the library:
 - CMA-6542PF: Electret microphone
 - PTS647SN50SMTR2LFS: SMD tact switch (4,5 x 4,5mm)
 - JS202011AQN: small THT slide switch
+- ICSP Header: this header can be found on every Arduino board
 - DRV8876NPWPR: DC motor driver with current feedback (HTSSOP-16 case)
