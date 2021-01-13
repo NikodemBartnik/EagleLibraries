@@ -458,10 +458,10 @@ Angle</description>
 <connects>
 <connect gate="G$1" pin="C1" pad="P$3"/>
 <connect gate="G$1" pin="C2" pad="P$4"/>
-<connect gate="G$1" pin="NC1" pad="P$5"/>
-<connect gate="G$1" pin="NC2" pad="P$6"/>
-<connect gate="G$1" pin="NO1" pad="P$1"/>
-<connect gate="G$1" pin="NO2" pad="P$2"/>
+<connect gate="G$1" pin="NC1" pad="P$6"/>
+<connect gate="G$1" pin="NC2" pad="P$5"/>
+<connect gate="G$1" pin="NO1" pad="P$2"/>
+<connect gate="G$1" pin="NO2" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
