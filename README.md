@@ -8,3 +8,4 @@ Here is what you can find in the library:
 - JS202011AQN: small THT slide switch
 - ICSP Header: this header can be found on every Arduino board
 - DRV8876NPWPR: DC motor driver with current feedback (HTSSOP-16 case)
+- ZXTR2012K: Linear voltage regulator 12V 0.06A output, up to 100V input voltage

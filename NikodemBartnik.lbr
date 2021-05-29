@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="yes"/>
@@ -234,28 +234,39 @@ RST	GND</description>
 <wire x1="-3.302" y1="1.905" x2="-2.54" y2="2.794" width="0.1524" layer="21"/>
 </package>
 <package name="A4988">
-<pad name="DIR" x="0" y="0" drill="1" diameter="1.6764" shape="long"/>
-<pad name="STEP" x="0" y="2.54" drill="1" diameter="1.6764" shape="long"/>
-<pad name="!SLEEP" x="0" y="5.08" drill="1" diameter="1.6764" shape="long"/>
-<pad name="!RESET" x="0" y="7.62" drill="1" diameter="1.6764" shape="long"/>
-<pad name="MS3" x="0" y="10.16" drill="1" diameter="1.6764" shape="long"/>
-<pad name="MS2" x="0" y="12.7" drill="1" diameter="1.6764" shape="long"/>
-<pad name="MS1" x="0" y="15.24" drill="1" diameter="1.6764" shape="long"/>
-<pad name="!ENABLE" x="0" y="17.78" drill="1" diameter="1.6764" shape="long"/>
-<pad name="GND" x="12.7" y="0" drill="1" diameter="1.6764" shape="long"/>
-<pad name="VDD" x="12.7" y="2.54" drill="1" diameter="1.6764" shape="long"/>
-<pad name="1B" x="12.7" y="5.08" drill="1" diameter="1.6764" shape="long"/>
-<pad name="1A" x="12.7" y="7.62" drill="1" diameter="1.6764" shape="long"/>
-<pad name="2A" x="12.7" y="10.16" drill="1" diameter="1.6764" shape="long"/>
-<pad name="2B" x="12.7" y="12.7" drill="1" diameter="1.6764" shape="long"/>
-<pad name="GNDMOT" x="12.7" y="15.24" drill="1" diameter="1.6764" shape="long"/>
-<pad name="VCCMOT" x="12.7" y="17.78" drill="1" diameter="1.6764" shape="long"/>
-<wire x1="-2.54" y1="19.304" x2="-2.54" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-1.651" x2="15.24" y2="-1.651" width="0.127" layer="21"/>
-<wire x1="15.24" y1="-1.651" x2="15.24" y2="19.304" width="0.127" layer="21"/>
-<wire x1="15.24" y1="19.304" x2="-2.54" y2="19.304" width="0.127" layer="21"/>
-<text x="-1.778" y="20.32" size="1.27" layer="21">&gt;NAME</text>
-<text x="-1.524" y="-3.937" size="1.27" layer="21">&gt;VALUE</text>
+<pad name="DIR" x="-6.35" y="-8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="STEP" x="-6.35" y="-6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="!SLEEP" x="-6.35" y="-3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="!RESET" x="-6.35" y="-1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="MS3" x="-6.35" y="1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="MS2" x="-6.35" y="3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="MS1" x="-6.35" y="6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="!ENABLE" x="-6.35" y="8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="GND" x="6.35" y="-8.89" drill="1" diameter="1.6764" shape="long"/>
+<pad name="VDD" x="6.35" y="-6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="1B" x="6.35" y="-3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="1A" x="6.35" y="-1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="2A" x="6.35" y="1.27" drill="1" diameter="1.6764" shape="long"/>
+<pad name="2B" x="6.35" y="3.81" drill="1" diameter="1.6764" shape="long"/>
+<pad name="GNDMOT" x="6.35" y="6.35" drill="1" diameter="1.6764" shape="long"/>
+<pad name="VCCMOT" x="6.35" y="8.89" drill="1" diameter="1.6764" shape="long"/>
+<wire x1="-8.89" y1="10.414" x2="-8.89" y2="-10.541" width="0.127" layer="21"/>
+<wire x1="-8.89" y1="-10.541" x2="8.89" y2="-10.541" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-10.541" x2="8.89" y2="10.414" width="0.127" layer="21"/>
+<wire x1="8.89" y1="10.414" x2="-8.89" y2="10.414" width="0.127" layer="21"/>
+<text x="-8.128" y="11.43" size="1.27" layer="21">&gt;NAME</text>
+<text x="-7.874" y="-12.827" size="1.27" layer="21">&gt;VALUE</text>
+</package>
+<package name="DPAK">
+<smd name="P$1" x="0" y="2.77" dx="5.632" dy="5.7" layer="1"/>
+<smd name="P$2" x="-2.286" y="-3.78" dx="1.06" dy="2.6" layer="1"/>
+<smd name="P$3" x="2.286" y="-3.78" dx="1.06" dy="2.6" layer="1"/>
+<wire x1="-3.81" y1="6.35" x2="-3.81" y2="-5.588" width="0.127" layer="22"/>
+<wire x1="-3.81" y1="-5.588" x2="3.81" y2="-5.588" width="0.127" layer="22"/>
+<wire x1="3.81" y1="-5.588" x2="3.81" y2="6.35" width="0.127" layer="22"/>
+<wire x1="3.81" y1="6.35" x2="-3.81" y2="6.35" width="0.127" layer="22"/>
+<text x="-3.683" y="6.858" size="1.27" layer="21">&gt;NAME</text>
+<text x="-3.683" y="-7.239" size="1.27" layer="21">&gt;VALUE</text>
 </package>
 </packages>
 <packages3d>
@@ -447,6 +458,18 @@ RST	GND</description>
 <wire x1="15.24" y1="20.32" x2="-15.24" y2="20.32" width="0.254" layer="94"/>
 <text x="-14.986" y="22.098" size="1.778" layer="95">&gt;NAME</text>
 <text x="-14.986" y="-23.622" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="ZXTR2012K-13">
+<pin name="VOUT" x="15.24" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="VIN" x="-15.24" y="2.54" visible="pin" length="middle"/>
+<pin name="GND" x="0" y="-12.7" visible="pin" length="middle" rot="R90"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="5.08" x2="-10.16" y2="5.08" width="0.254" layer="94"/>
+<text x="-10.414" y="3.556" size="1.778" layer="95">&gt;NAME
+</text>
+<text x="-10.16" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -663,10 +686,38 @@ Angle</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="ZXTR2012K-13">
+<description>The ZXTR2012K monolithically integrates a transistor, zener diode
+and resistor to function as a high-voltage linear regulator. The device
+regulates with a 12V nominal output at 15mA. It’s designed for use in
+high-voltage applications where standard linear regulators cannot be
+used. This function is fully integrated into a TO252 package,
+minimizing PCB area and reducing a number of components when
+compared with a multi-chip discrete solution.</description>
+<gates>
+<gate name="G$1" symbol="ZXTR2012K-13" x="0" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="DPAK">
+<connects>
+<connect gate="G$1" pin="GND" pad="P$2"/>
+<connect gate="G$1" pin="VIN" pad="P$1"/>
+<connect gate="G$1" pin="VOUT" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.3" severity="warning">
 Since Version 8.3, EAGLE supports URNs for individual library
 assets (packages, symbols, and devices). The URNs of those assets
