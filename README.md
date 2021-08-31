@@ -9,3 +9,5 @@ Here is what you can find in the library:
 - ICSP Header: this header can be found on every Arduino board
 - DRV8876NPWPR: DC motor driver with current feedback (HTSSOP-16 case)
 - ZXTR2012K: Linear voltage regulator 12V 0.06A output, up to 100V input voltage
+- U-USBBR04P-F000: USB - Type B THT socket 
+- FDN340P: P MOSFET SOT23
