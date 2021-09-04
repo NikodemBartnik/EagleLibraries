@@ -11,3 +11,4 @@ Here is what you can find in the library:
 - ZXTR2012K: Linear voltage regulator 12V 0.06A output, up to 100V input voltage
 - U-USBBR04P-F000: USB - Type B THT socket 
 - FDN340P: P MOSFET SOT23
+- IFX27001TFV50: 40V 1.4V @ 1A Fixed 5V TO-252-2(DPAK) Linear Voltage Regulator

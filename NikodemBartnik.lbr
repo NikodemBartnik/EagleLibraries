@@ -303,6 +303,25 @@ RST	GND</description>
 <text x="0" y="2.6436" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
 <text x="0" y="-2.2036" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
 </package>
+<package name="TO228P998X230-3N" urn="urn:adsk.eagle:footprint:30676171/1">
+<description>3-TO, DPAK, 2.28 mm pitch, 9.98 mm span, 6.50 X 6.12 X 2.30 mm body
+&lt;p&gt;3-pin TO, DPAK package with 2.28 mm pitch, 9.98 mm span with body size 6.50 X 6.12 X 2.30 mm&lt;/p&gt;</description>
+<circle x="-4.5857" y="3.2536" radius="0.25" width="0" layer="21"/>
+<wire x1="4.145" y1="3.0486" x2="4.145" y2="3.325" width="0.12" layer="21"/>
+<wire x1="4.145" y1="3.325" x2="-2.075" y2="3.325" width="0.12" layer="21"/>
+<wire x1="-2.075" y1="3.325" x2="-2.075" y2="-3.325" width="0.12" layer="21"/>
+<wire x1="-2.075" y1="-3.325" x2="4.145" y2="-3.325" width="0.12" layer="21"/>
+<wire x1="4.145" y1="-3.325" x2="4.145" y2="-3.0486" width="0.12" layer="21"/>
+<wire x1="4.145" y1="-3.325" x2="-2.075" y2="-3.325" width="0.12" layer="51"/>
+<wire x1="-2.075" y1="-3.325" x2="-2.075" y2="3.325" width="0.12" layer="51"/>
+<wire x1="-2.075" y1="3.325" x2="4.145" y2="3.325" width="0.12" layer="51"/>
+<wire x1="4.145" y1="3.325" x2="4.145" y2="-3.325" width="0.12" layer="51"/>
+<smd name="1" x="-4.5857" y="2.28" dx="2.0148" dy="0.9391" layer="1"/>
+<smd name="2" x="-4.5857" y="-2.28" dx="2.0148" dy="0.9391" layer="1"/>
+<smd name="3" x="2.5146" y="0" dx="6.1571" dy="5.5891" layer="1"/>
+<text x="0" y="4.1386" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-3.96" size="1.27" layer="27" align="top-center">&gt;VALUE</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="SOIC127P599X175-8N" urn="urn:adsk.eagle:package:24289151/1" type="model">
@@ -324,6 +343,20 @@ RST	GND</description>
 &lt;p&gt;3-pin SOT23 package with 0.95 mm pitch, 2.40 mm span with body size 2.90 X 1.30 X 1.10 mm&lt;/p&gt;</description>
 <packageinstances>
 <packageinstance name="SOT95P240X110-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="TO228P998X230-3N" urn="urn:adsk.eagle:package:30676154/1" locally_modified="yes" type="model">
+<description>3-TO, DPAK, 2.28 mm pitch, 9.98 mm span, 6.55 X 6.10 X 2.30 mm body
+&lt;p&gt;3-pin TO, DPAK package with 2.28 mm pitch, 9.98 mm span with body size 6.55 X 6.10 X 2.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TO228P998X230-3N"/>
+</packageinstances>
+</package3d>
+<package3d name="TO228P998X230-3N" urn="urn:adsk.eagle:package:30676167/1" type="model">
+<description>3-TO, DPAK, 2.28 mm pitch, 9.98 mm span, 6.50 X 6.12 X 2.30 mm body
+&lt;p&gt;3-pin TO, DPAK package with 2.28 mm pitch, 9.98 mm span with body size 6.50 X 6.12 X 2.30 mm&lt;/p&gt;</description>
+<packageinstances>
+<packageinstance name="TO228P998X230-3N"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -556,6 +589,17 @@ RST	GND</description>
 <vertex x="0.762" y="0.508"/>
 <vertex x="2.032" y="0.508"/>
 </polygon>
+</symbol>
+<symbol name="IFX27001TFV50">
+<description>40V 1.4V @ 1A Fixed 5V TO-252-2(DPAK) Linear Voltage Regulators (LDO) ROHS</description>
+<pin name="GND" x="-12.7" y="2.54" length="short"/>
+<pin name="INPUT" x="10.16" y="2.54" length="short" rot="R180"/>
+<pin name="OUT" x="-2.54" y="-10.16" length="short" rot="R90"/>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-10.16" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="94"/>
+<text x="-9.906" y="5.588" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -832,6 +876,26 @@ Manufacturer: Ckmtw(Shenzhen Cankemeng)</description>
 </connects>
 <package3dinstances>
 <package3dinstance package3d_urn="urn:adsk.eagle:package:30631539/1"/>
+</package3dinstances>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="IFX27001TFV50">
+<gates>
+<gate name="G$1" symbol="IFX27001TFV50" x="-5.08" y="5.08"/>
+</gates>
+<devices>
+<device name="TO252" package="TO228P998X230-3N">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="INPUT" pad="2"/>
+<connect gate="G$1" pin="OUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:30676167/1"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
