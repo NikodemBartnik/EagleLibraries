@@ -12,3 +12,5 @@ Here is what you can find in the library:
 - U-USBBR04P-F000: USB - Type B THT socket 
 - FDN340P: P MOSFET SOT23
 - IFX27001TFV50: 40V 1.4V @ 1A Fixed 5V TO-252-2(DPAK) Linear Voltage Regulator
+- LM3480: LM3480 100-mA, SOT-23, Quasi Low-Dropout Linear Voltage Regulator
+- TMC2226: Step/Dir Drivers for Two-Phase Bipolar Stepper Motors up to 2.8A peak
